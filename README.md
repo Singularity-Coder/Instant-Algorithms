@@ -1,4 +1,5 @@
-# Code-Snippets-Algorithms
+![alt text](https://github.com/Singularity-Coder/Code-Snippets-Algorithms/blob/main/assets/banner_lagorithms.png)
+# Code Snippets Algorithms
 List of Algorithm topics and their code snippets!
 
 ## Algorithm Analysis

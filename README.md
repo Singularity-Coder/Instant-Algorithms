@@ -17,8 +17,22 @@ List of Algorithm topics and their code snippets!
 ## Heap
 
 ## Sorting
+#### Bubble Sort
+#### Insertion Sort
+#### Quick Sort
+#### Selection Sort
 
 ## Searching
+#### Linear Search
+#### Binary Search
+* Also known as Half-Interval Search, Logarithmic Search, Binary Chop.
+* Elements in the array must be sorted before searching.
+* This divides the search inetrval in falf.
+* If the search value is less than the middle item of the interval, narrow the interval to the lower half. Else narrow it to upper half
+* Repeatedly check until the search value is found or the interval is empty
+* In case of binary search, array elements must be in ascending order.
+
+
 
 ## Hashing
 

@@ -1,4 +1,4 @@
-![alt text](https://github.com/Singularity-Coder/Code-Snippets-Algorithms/blob/main/assets/banner_algorithms.png)
+![alt text](https://github.com/Singularity-Coder/Code-Snippets-Algorithms/blob/main/assets/banner_algorithm.png)
 # Code Snippets Algorithms
 List of Algorithm topics and their code snippets!
 

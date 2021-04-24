@@ -18,6 +18,16 @@ List of Algorithm topics and their code snippets!
 
 ## Sorting
 #### Bubble Sort
+* Bubble sort a.k.a Sinking Sort
+* Traverse Array from 1st to last element
+* Compare current element with next element
+* if current element > next element -> swap each other's position
+* Step 4 is repeated until whole list is sorted. Ascending or descending depends on condition.
+* Very slow algorithm especially for large unsorted lists
+* Worst (t) = O(n^2)
+* Avg (t) = O(n^2)
+* Best (t) = O(n)
+* Space (s) = O(1)
 #### Insertion Sort
 #### Quick Sort
 #### Selection Sort

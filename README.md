@@ -1,4 +1,4 @@
-![alt text](https://github.com/Singularity-Coder/Code-Snippets-Algorithms/blob/main/assets/banner_algorithms.png)
+![alt text](https://github.com/Singularity-Coder/Code-Snippets-Algorithms/blob/main/assets/banner_algorithm.png)
 # Code Snippets Algorithms
 List of Algorithm topics and their code snippets!
 
@@ -18,6 +18,18 @@ List of Algorithm topics and their code snippets!
 
 ## Sorting
 #### Bubble Sort
+* Bubble sort a.k.a Sinking Sort
+* Steps
+	* Traverse Array from 1st to last element
+	* Compare current element with next element
+	* if current element > next element -> swap each other's position
+	* Step 4 is repeated until whole list is sorted. Ascending or descending depends on condition.
+* Very slow algorithm especially for large unsorted lists
+* Complexity
+	* Worst (t) = O(n^2) - Since 2 for-loops nested. Where "n" is the list size.
+	* Avg (t) = O(n^2) - Since 2 for-loops nested. Where "n" is the list size.
+	* Best (t) = O(n) - Since list is sorted.
+	* Space (s) = O(1) - Since we are performing inplace operations (meaning modifying the input list itself). No additional DS or variables used.
 #### Insertion Sort
 #### Quick Sort
 #### Selection Sort

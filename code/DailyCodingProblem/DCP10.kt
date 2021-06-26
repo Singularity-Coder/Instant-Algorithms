@@ -1,7 +1,5 @@
-import com.sun.org.apache.xml.internal.security.utils.JavaUtils
-import java.util.*
-import java.util.concurrent.DelayQueue
-import java.util.logging.Handler
+import java.util.TimerTask
+import java.util.Timer
 
 /**
  * Implement a job scheduler which takes in a function f and an integer n, and calls f after n milliseconds.

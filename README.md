@@ -74,8 +74,8 @@ List of Algorithm topics and their code snippets!
 
 
 ## Terminology
-####Recursion
-Recursion Visualisations [Link](https://www.slideshare.net/secret/4B9QiHDqNXjAD3)
+#### Recursion
+Recursion Visualisations [Link](https://www.slideshare.net/secret/aiocyxFGvcVts3)
 * **Recursion:** Something defined in terms of itself. Ex: 2 = (2 * 2) / 2. Its like iteration without loops. Also means repetition. Its a programming paradigm. Implementation wise, its a function that calls itself. The idea behind recursion is that we solve the main problem by reducing it into smaller subproblems.
 * **Iteration:** Repetition of a process.
 * **Call stack:** Stack Data Structure that stores info about the active functions/methods/subroutines of a computer program. Also called as execution stack, program stack, control stack, run-time stack, machine stack.
@@ -90,7 +90,7 @@ Recursion Visualisations [Link](https://www.slideshare.net/secret/4B9QiHDqNXjAD3
 	* **Top-Down:** Solve the problem by caching solutions to subproblems to avoid recomputing them and reuse those results when required.
 	* **Half-and-Half:** Divide data set in half. It's a way to narrow down the data set to find an element quickly.
 
-#### Trees & Graphs**
+#### Trees & Graphs
 * **Node - with example code**
 * **Directed Graph**
 * **Route between Nodes**

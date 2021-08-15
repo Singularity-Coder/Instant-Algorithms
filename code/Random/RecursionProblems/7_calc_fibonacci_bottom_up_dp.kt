@@ -29,6 +29,7 @@ fun fibonacciBottomUp(n: Int): Int {
     return memo[n - 1] + memo[n - 2]
 }
 
+// 1889 ns
 fun fibonacciBottomUpOptimised(n: Int): Int {
     if (n == 0) return 0
     var a = 0

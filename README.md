@@ -75,7 +75,7 @@ List of Algorithm topics and their code snippets!
 
 ## Terminology
 #### Recursion
-* **Recursion Notes** [Link](https://github.com/Singularity-Coder/Code-Snippets-Algorithms/blob/main/assets/presentations/Recursion.pdf)
+* **Recursion Notes** [Link](https://github.com/Singularity-Coder/Code-Snippets-Algorithms/blob/main/assets/notes/Recursion.pdf)
 * **Recursion:** Something defined in terms of itself. Ex: 2 = (2 * 2) / 2. Its like iteration without loops. Also means repetition. Its a programming paradigm. Implementation wise, its a function that calls itself. The idea behind recursion is that we solve the main problem by reducing it into smaller subproblems.
 * **Iteration:** Repetition of a process.
 * **Call stack:** Stack Data Structure that stores info about the active functions/methods/subroutines of a computer program. Also called as execution stack, program stack, control stack, run-time stack, machine stack.

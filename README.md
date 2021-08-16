@@ -79,6 +79,7 @@ Recursion Visualisations [Link](https://www.slideshare.net/secret/aiocyxFGvcVts3
 * **Recursion:** Something defined in terms of itself. Ex: 2 = (2 * 2) / 2. Its like iteration without loops. Also means repetition. Its a programming paradigm. Implementation wise, its a function that calls itself. The idea behind recursion is that we solve the main problem by reducing it into smaller subproblems.
 * **Iteration:** Repetition of a process.
 * **Call stack:** Stack Data Structure that stores info about the active functions/methods/subroutines of a computer program. Also called as execution stack, program stack, control stack, run-time stack, machine stack.
+* **Stack Overflow:** A programming error when too much memory is used on the call stack.
 * **Base case** Its the final recursive call that actually returns a value which is then computed by the rest of the functions in the call stack. It can also be called as an "exit" condition. A conditon where we quit the recursive call.
 * **Memoization or Caching of computed values:** Optimisation technique to speed up running times of programs by storing results of expensive function calls and returning the cached result when the same input occurs again.
 * **Fibonacci Series:** Each number is the sum of the 2 preceding ones, starting from 0 and 1. Ex: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144... where 8 is a sum of 5 and 3, its preceding 2 numbers.

@@ -27,3 +27,20 @@ fun calcFibonacciRunTime(): String {
     val time = end - start
     return "${time.toDouble()/1000.0} seconds"
 }
+
+// 0 + 1 = 1
+// 1 + 1 = 2
+// 1 + 2 = 3
+// 2 + 3 = 5
+// 5 + 3 = 8
+// starting the iteration with 2 cause we have computed 0 and 1 and assigned in the variables fib and preFib
+fun iterativeFibonacci(n: Int): Int {
+    if (n == 0 || n == 1) return n
+    var prevFib = 1; var fib = 1
+    for (i in 2 until n) {
+        val temp = fib
+        fib += prevFib
+        prevFib = temp
+    }
+    return fib
+}

@@ -74,6 +74,22 @@ List of Algorithm topics and their code snippets!
 
 
 ## Terminology
+
+#### Game Logic
+* **Chess:**
+* **Othello:**
+* **Su-Do-Ku:**
+* **Poker:**
+
+#### Problem Theory
+* **Fibonacci Series:** Each number is the sum of the 2 preceding ones, starting from 0 and 1. Ex: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144... where 8 is a sum of 5 and 3, its preceding 2 numbers.
+* **Factorial** A function that multiplies a number by every number below it. Ex: 5!= 5 * 4 * 3 * 2 * 1 = 120. The function is used, among other things, to find the number of ways “n” objects can be arranged.
+* **Programming Paradigm:** A way to classify programming languages based on their features. Recursion is especially observed in pure functional programming languages like Haskell, Clojure, Scala, etc.
+* **Permutation:**
+* **Combination:**
+* **Axiom:** Statement that is taken to be true.
+* **Probable Outcomes:**
+
 #### Recursion
 * **Recursion Notes** [Link](https://github.com/Singularity-Coder/Code-Snippets-Algorithms/blob/main/assets/notes/Recursion.pdf)
 * **Recursion:** Something defined in terms of itself. Ex: 2 = (2 * 2) / 2. Its like iteration without loops. Also means repetition. Its a programming paradigm. Implementation wise, its a function that calls itself. The idea behind recursion is that we solve the main problem by reducing it into smaller subproblems.
@@ -82,14 +98,11 @@ List of Algorithm topics and their code snippets!
 * **Stack Overflow:** A programming error when too much memory is used on the call stack.
 * **Base case** Its the final recursive call that actually returns a value which is then computed by the rest of the functions in the call stack. It can also be called as an "exit" condition. A conditon where we quit the recursive call.
 * **Memoization or Caching of computed values:** Optimisation technique to speed up running times of programs by storing results of expensive function calls and returning the cached result when the same input occurs again.
-* **Fibonacci Series:** Each number is the sum of the 2 preceding ones, starting from 0 and 1. Ex: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144... where 8 is a sum of 5 and 3, its preceding 2 numbers.
-* **Factorial** A function that multiplies a number by every number below it. Ex: 5!= 5 * 4 * 3 * 2 * 1 = 120. The function is used, among other things, to find the number of ways “n” objects can be arranged.
-* **Programming Paradigm:** A way to classify programming languages based on their features. Recursion is especially observed in pure functional programming languages like Haskell, Clojure, Scala, etc.
 * **Dynamic Programming (DP):** An algorithmic technique for optimising a recursive problem by breaking it into subproblems and caching the computed values (memoization) in order to not compute the same subproblem again if it occurs more than once. Refer "Memoization" definition.
-* **Ways to solve Recusrive problems:**
-	* **Bottom-Up:** Solve the problem by first solving the large subproblems using results of smaller subproblems.
-	* **Top-Down:** Solve the problem by caching solutions to subproblems to avoid recomputing them and reuse those results when required.
-	* **Half-and-Half:** Divide data set in half. It's a way to narrow down the data set to find an element quickly.
+* **Ways to solve Recursion / DP problems:**
+	* **Bottom-Up:** Solve the problem by first solving the large subproblems using results of smaller subproblems. In-short, solve the simplest case first and build up on that.
+	* **Top-Down:** We think about how we can divide the problem for case N into subproblems. Solve the problem by caching solutions to subproblems to avoid recomputing them and reuse those results when required.
+	* **Half-and-Half:** Sort array first. Divide data set in half. It's a way to narrow down the data set to find an element quickly. Solve the divided problems and combin the result to solve the main problem.
 
 #### Trees & Graphs
 * **Node - with example code**

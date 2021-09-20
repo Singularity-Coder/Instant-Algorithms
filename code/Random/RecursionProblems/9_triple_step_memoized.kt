@@ -11,17 +11,17 @@ import java.util.*
 // 2. go to (n - 2)st step and hop 2 steps
 // 3. go to (n - 3)st step and hop 3 steps
 
-// So maybe the way to comeup with a formula recursive formula is by trying to reach the nth step
+// So maybe the way to comeup with a recursive formula is by trying to reach the nth step
 // runtime is exponential (O(3^n)), since each call branches out to 3 more calls
 // A cache in DP is typically a hashmap something like HashMap<Integer, Integer>
 
 // How many possible ways? Typically double for loop. ????????????
-// Overflowing a particular type - Ex: Int can only handle 32 id==dits. Use BigInteger or BigDecimal to solve this issue.
+// Overflowing a particular type - Ex: Int can only handle 32 digits in Java n Kotlin. Use BigInteger or BigDecimal to solve this issue.
 
 fun main() {
     val n = 10  // steps
     val ways: Int = countWays(n)
-    println(ways)
+    println(ways)   // 274 ways of going up stairs
 }
 
 fun countWays(n: Int): Int {
@@ -30,6 +30,7 @@ fun countWays(n: Int): Int {
     return countWays(n, map)
 }
 
+// If you see new value cache it or return the value from cache instead of computing it
 fun countWays(n: Int, memo: IntArray): Int {
     return when {
         n < 0 -> 0

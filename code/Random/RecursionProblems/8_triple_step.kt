@@ -13,16 +13,19 @@
 // runtime is exponential (O(3^n)), since each call branches out to 3 more calls
 
 // How many possible ways? Typically double for loop. ????????????
+// Why add instead of multiply?
+// How to represent permutation and combination?
+
 fun main() {
     val n = 10  // steps
     val ways: Int = countWays(n)
-    println(ways)
+    println(ways)   // 274 ways of going up stairs.
 }
 
 fun countWays(n: Int): Int {
     return when {
-        n < 0 -> 0
-        n == 0 -> 1
+        n < 0 -> 0  // When no input
+        n == 0 -> 1 // When no steps assume possible way is 1
         else -> countWays(n - 1) + countWays(n - 2) + countWays(n - 3)
     }
 }

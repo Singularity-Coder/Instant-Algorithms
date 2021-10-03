@@ -93,6 +93,7 @@ List of Algorithm topics and their code snippets!
 * **Hashing:** 
 
 #### Aymptotic Analysis
+* **Asymptotic Analysis Notes** [Link](https://github.com/Singularity-Coder/Code-Snippets-Algorithms/blob/main/assets/notes/AsymptoticAnalysis.pdf)
 * Language and metric used to define efficiency of algorithm.
 * Asymptotic runtime is a.k.a Big O time.
 * Algorithmic runtime example - Large file transfer:

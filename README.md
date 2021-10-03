@@ -87,8 +87,20 @@ List of Algorithm topics and their code snippets!
 * **Programming Paradigm:** A way to classify programming languages based on their features. Recursion is especially observed in pure functional programming languages like Haskell, Clojure, Scala, etc.
 * **Permutation:**
 * **Combination:**
-* **Axiom:** Statement that is taken to be true.
+* **Axiom:** Statement that is taken to be true. Ex: Earth is spherical in shape.
 * **Probable Outcomes:**
+* **Leap Year:**
+* **Hashing:** 
+
+#### Aymptotic Analysis
+* Language and metric used to define efficiency of algorithm.
+* Asymptotic runtime is a.k.a Big O time.
+* Algorithmic runtime example - Large file transfer:
+	* Electronic transfer is O(s) time where "s" is file size. Time to transfer file == file size.
+	* Airplane transfer is O(1) time as even if the file size increases the time taken to transfer the file remains the same.
+* Why constant time is considered better than all? In general, no matter how big the constant and how slow the linear increase, Linear will surpass cosntant time.
+
+
 
 #### Recursion
 * **Recursion Notes** [Link](https://github.com/Singularity-Coder/Code-Snippets-Algorithms/blob/main/assets/notes/Recursion.pdf)
@@ -150,3 +162,6 @@ List of Algorithm topics and their code snippets!
 
 ## References
 * [Difference between Bottom-Up and Top-Down](https://stackoverflow.com/questions/6164629/what-is-the-difference-between-bottom-up-and-top-down)
+* https://leetcode.com/problemset/all/
+* https://projecteuler.net/
+* https://icpc.global/worldfinals/problems

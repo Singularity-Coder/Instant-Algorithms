@@ -1,88 +1,116 @@
 ![alt text](https://github.com/Singularity-Coder/Code-Snippets-Algorithms/blob/main/assets/banner_algorithm.png)
-# Code Snippets Algorithms
+# InstaAlgo
 List of Algorithm topics and their code snippets!
 
+------------------------------------------------------------------------------------------------------------------------
 
-## Linear DS
-* **Arrays**
-* **Linked List**
-	* **Doubly Linked List**
-	* **Circular Linked List**
+# 📦 Data Structures
+## Arrays
+Linear Data Structure.
+* CRUD ops in Array
 
 
-## Stack DS
-* Stack 
-* Queue
-* Heap
+## Linked List
+Linear Data Structure.
+* CRUD ops in linked list
+* **Doubly Linked List**
+* **Circular Linked List**
+
+
+## Stack
+Data Structure.
+* CRUD ops in stack
+
+
+## Queue
+Data Structure.
+* CRUD ops in queue
+
+
+## Heap
+Data Structure.
+* CRUD ops in heap
 
 
 ## Tree DS
 * **Binary Tree**
 * **Binary Search Tree**
-* AVL Tree
-* Red Black Tree
-* Threaded Binary Tree
-* Expression Tree
-* B Tree
+* **AVL Tree**
+* **Red Black Tree**
+* **Threaded Binary Tree**
+* **Expression Tree**
+* **B Tree**
 
 
 ## Graph DS
+Data Structure.
+* CRUD ops in Graphs
+
+------------------------------------------------------------------------------------------------------------------------
+
+# 🧩 Algorithms
+
+## Sorting
+* **Bubble Sort**
+* **Insertion Sort**
+* **Quick Sort**
+* **Merge Sort**
+* **Selection Sort**
+
+## Searching
+* **Binary Search**
+
+## Graph
 * **Breadth First Search (BFS)**
 * **Depth First Search (DFS)**
 * **Back Tracking**
-* Dijkstra’s Shortest Path Algorithm
-* Adjacency matrix
-* Adjacency list
-* Path matrix
-* Warshall’s Algorithm
-
-
-## Tree & Graph
-* Prim's Algorithm  
-* Kruskal's Algorithm
-
+* **Dijkstra’s Shortest Path Algorithm**
+* **Adjacency matrix**
+* **Adjacency list**
+* **Path matrix**
+* **Warshall’s Algorithm**
 
 ## Dynamic Programming
 * **Memoization**
 * **Divide-And-Conquer**
 
+## Tree & Graph
+* **Prim's Algorithm**
+* **Kruskal's Algorithm**
 
 ## Others
-* Hashing
+* **Hashing**
 * **Recursion**
 * **Iteration**
 * **Matrices**
 * **Sets**
 * **Hash Maps**
 * **Tries**
-* Bubble Sort
-* Insertion Sort
-* **Quick Sort**
-* **Merge Sort**
-* Selection Sort
-* Binary Search
-* Bit Manipulation
-* String
+* **Bit Manipulation**
+* **String**
 * **Multile Pointer**
 * **Sliding Windows**
 * **Greedy Algorithms**
-* **Proofs**
-	* **Contrapositive**
-	* **Contradiction**
-	* **Proof by Cases**
-	* **Induction**
 
+------------------------------------------------------------------------------------------------------------------------
 
-## Terminology
+# 📜 Proofs
+## Contrapositive
+## Contradiction
+## Proof by Cases
+## Induction
 
-#### Game Logic
+------------------------------------------------------------------------------------------------------------------------
+
+# 🎲 Game Logic
 * **Chess:**
 * **Othello:**
 * **Su-Do-Ku:**
 * **Poker:**
 
+------------------------------------------------------------------------------------------------------------------------
 
-#### Problem Theory
+# ✍️ Problem Theory
 * **Fibonacci Series:** Each number is the sum of the 2 preceding ones, starting from 0 and 1. Ex: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144... where 8 is a sum of 5 and 3, its preceding 2 numbers.
 * **Factorial** A function that multiplies a number by every number below it. Ex: 5!= 5 * 4 * 3 * 2 * 1 = 120. The function is used, among other things, to find the number of ways “n” objects can be arranged.
 * **Programming Paradigm:** A way to classify programming languages based on their features. Recursion is especially observed in pure functional programming languages like Haskell, Clojure, Scala, etc.
@@ -99,8 +127,9 @@ List of Algorithm topics and their code snippets!
 * **Divisibility by 2:**
 * **Three way deadlock:**
 
+------------------------------------------------------------------------------------------------------------------------
 
-#### Aymptotic Analysis
+# ⏱ Aymptotic Analysis
 * **Asymptotic Analysis Notes** [Link](https://github.com/Singularity-Coder/Code-Snippets-Algorithms/blob/main/assets/notes/AsymptoticAnalysis.pdf)
 * Language and metric used to define efficiency of algorithm.
 * Asymptotic runtime is a.k.a Big O time.
@@ -109,8 +138,45 @@ List of Algorithm topics and their code snippets!
 	* Airplane transfer is O(1) time as even if the file size increases the time taken to transfer the file remains the same.
 * Why constant time is considered better than all? In general, no matter how big the constant and how slow the linear increase, Linear will surpass cosntant time.
 
+------------------------------------------------------------------------------------------------------------------------
 
-#### Recursion
+# 🏄‍♂️ Algorithmic Techniques
+
+## 2 Pointer
+* Problem
+
+## Dynamic Programming
+* Problem
+
+------------------------------------------------------------------------------------------------------------------------
+
+# 🤔 Problem Solving Techniues
+## Sorted array Qs
+* Use Binary Search and 2 pointer technique
+
+## Linked List Qs
+* Use 2 pointer (Slow and Fast pointers)
+
+## Top / Least K items Qs
+* Use Heap
+
+## Tree or Graph Qs
+* Use BFS or DFS
+
+## Frequency / Duplicates
+* Use HashMap
+
+## Max / Min subarray or subset Qs
+* Use Dynamic Programming
+
+## Permutations / Subsets Qs
+* Use Recursion or Backtracking
+
+------------------------------------------------------------------------------------------------------------------------
+
+# 🧠 Terminology
+
+## Recursion
 * **Recursion Notes** [Link](https://github.com/Singularity-Coder/Code-Snippets-Algorithms/blob/main/assets/notes/Recursion.pdf)
 * **Recursion:** Something defined in terms of itself. Ex: 2 = (2 * 2) / 2. Its like iteration without loops. Also means repetition. Its a programming paradigm. Implementation wise, its a function that calls itself. The idea behind recursion is that we solve the main problem by reducing it into smaller subproblems.
 * **Iteration:** Repetition of a process.
@@ -125,7 +191,7 @@ List of Algorithm topics and their code snippets!
 	* **Half-and-Half:** Sort array first. Divide data set in half. It's a way to narrow down the data set to find an element quickly. Solve the divided problems and combin the result to solve the main problem.
 
 
-#### Trees & Graphs
+## Trees & Graphs
 * **Node - with example code**
 * **Directed Graph**
 * **Route between Nodes**
@@ -300,8 +366,23 @@ Add the 1 bit values:      64 + 8 + 2 + 1 = 75
 * **Unix Time:**
 * **Even Odd:** If you add odd to odd, odd to even, even to even, even to odd. Rules of Odd Even multiplication, division.
 
-## References
+------------------------------------------------------------------------------------------------------------------------
+
+# 🙏 References
+* [Scaler - Data Structures and Algorithms Full Course with Interview Q & A](https://www.youtube.com/watch?v=PlJHXayxQzE)
 * [Difference between Bottom-Up and Top-Down](https://stackoverflow.com/questions/6164629/what-is-the-difference-between-bottom-up-and-top-down)
 * https://leetcode.com/problemset/all/
 * https://projecteuler.net/
 * https://icpc.global/worldfinals/problems
+* https://medium.com/codechef-vit/how-to-identify-which-data-structure-to-use-5a1c66ad2742
+
+------------------------------------------------------------------------------------------------------------------------
+
+# 🛠 How to edit?
+* Use VS Code
+* To preview in VS Code: Cmd + Shift + v
+* View preview in split window
+* VS Code extensions:
+	* Markdown Emoji
+	* Markdown Math
+* VS Code Reference for markdown: https://code.visualstudio.com/docs/languages/markdown

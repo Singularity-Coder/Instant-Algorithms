@@ -1,4 +1,4 @@
-![alt text](https://github.com/Singularity-Coder/Code-Snippets-Algorithms/blob/main/assets/banner_algorithm.png)
+![alt text](https://github.com/Singularity-Coder/Instant-Algorithms/blob/main/assets/banner_algorithm.png)
 # InstaAlgo
 List of Algorithm topics and their code snippets!
 

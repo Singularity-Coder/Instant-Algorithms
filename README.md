@@ -386,10 +386,17 @@ Add the 1 bit values:      64 + 8 + 2 + 1 = 75
 ------------------------------------------------------------------------------------------------------------------------
 
 # Telusu
-* Linear Search
+* Searching: Linear Search
 * Array Rotation
-* Bubble Sort
+* Sorting: Bubble Sort
 * Matrix Addition, Subtraction, Multiplication, Division
+
+# Telusu Later
+* Searching: Linear Search, Binary Search, DFS, BFS
+* Array Rotation
+* Sorting: Bubble Sort, Insertion Sort, Selection Sort, Merge Sort, Quick Sort, Counting Sort, Heap Sort
+* Matrix Addition, Subtraction, Multiplication, Division
+* In, Pre, Postorder Tree Traversals
 
 ------------------------------------------------------------------------------------------------------------------------
 

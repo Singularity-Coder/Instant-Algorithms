@@ -1,5 +1,5 @@
 ![alt text](https://github.com/Singularity-Coder/Instant-Algorithms/blob/main/assets/banner_algorithm.png)
-# InstaAlgo
+# Instant Algorithms
 List of Algorithm topics and their code snippets!
 
 ------------------------------------------------------------------------------------------------------------------------
@@ -365,6 +365,23 @@ Add the 1 bit values:      64 + 8 + 2 + 1 = 75
 * **2’s complement:**
 * **Unix Time:**
 * **Even Odd:** If you add odd to odd, odd to even, even to even, even to odd. Rules of Odd Even multiplication, division.
+
+
+# New
+* Pointer: 
+* In-Place Operations:
+* Multiple pointer technique:
+
+# Basic Math
+* Division: 
+	* Ex: 105/8 -> 8 * 13 = 104. What remains of 105 after dividing into 8 parts is 1. Here 105 is Dividend. 8 is the Divisor. 13 is the Quotient. 1 is the Remainder.
+	* Dividend = Divisor * Quotient + Remainder -----> 105 = 8 * 13 + 1
+* Factor: A number x that divides another number y evenly without leaving a remainder. Ex: 8 is a factor of 32 since 8 divides 32 into 4 equal parts. 
+* Common factor: If a number x divides more than 1 number say y and z evenly without leaving a reminder then x is a common factor of y and z. Ex: 2 is a factor of 4 and 8, hence 2 is a common factor.
+* GCD (Greatest common divisor) or HCF (Highest common factor): Largest common factor btw 2 or more numbers that divides those numbers evenly without leaving any reminder. Ex: 10 and 15 have 5 as the largest number that divides both of them without leaving a reminder. 10/5 = 2 and 15/5 = 3.
+* LCM - Least common multiple
+* Find the factors of a number say 35? A.k.a find numbers that divide 35 without leaving a reminder.
+
 
 ------------------------------------------------------------------------------------------------------------------------
 

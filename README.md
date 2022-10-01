@@ -381,6 +381,7 @@ Add the 1 bit values:      64 + 8 + 2 + 1 = 75
 * GCD (Greatest common divisor) or HCF (Highest common factor): Largest common factor btw 2 or more numbers that divides those numbers evenly without leaving any reminder. Ex: 10 and 15 have 5 as the largest number that divides both of them without leaving a reminder. 10/5 = 2 and 15/5 = 3. So the primary purpose of GCD is to find out how many large parts a quantity can be divided equally.
 * LCM - Least common multiple
 * Find the factors of a number say 35? A.k.a find numbers that divide 35 without leaving a reminder.
+* Hashcode in Java: Hashcode is a signed integer value that is associated with each object in Java. Its primarily used for hashing in hash tables used by data structures like HashMap. It is generally unique.
 
 
 ------------------------------------------------------------------------------------------------------------------------

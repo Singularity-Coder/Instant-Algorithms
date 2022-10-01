@@ -382,7 +382,12 @@ Add the 1 bit values:      64 + 8 + 2 + 1 = 75
 * LCM - Least common multiple
 * Find the factors of a number say 35? A.k.a find numbers that divide 35 without leaving a reminder.
 * Hashcode in Java: Hashcode is a signed integer value that is associated with each object in Java. Its primarily used for hashing in hash tables used by data structures like HashMap. It is generally unique.
-
+* Matrix: Characters arranged into a fixed number of rows and columns. They usually contain numbers.
+* m x n matrix: "m" is the number of rows and "n" is the number of columns. Ex: A 2 x 3 matrix. 2 rows and 3 columns.
+```
+1, 5, 8
+3, 0, 5
+```
 
 ------------------------------------------------------------------------------------------------------------------------
 

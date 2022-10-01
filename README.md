@@ -378,10 +378,18 @@ Add the 1 bit values:      64 + 8 + 2 + 1 = 75
 	* Dividend = Divisor * Quotient + Remainder -----> 105 = 8 * 13 + 1
 * Factor: A number x that divides another number y evenly without leaving a remainder. Ex: 8 is a factor of 32 since 8 divides 32 into 4 equal parts. 
 * Common factor: If a number x divides more than 1 number say y and z evenly without leaving a reminder then x is a common factor of y and z. Ex: 2 is a factor of 4 and 8, hence 2 is a common factor.
-* GCD (Greatest common divisor) or HCF (Highest common factor): Largest common factor btw 2 or more numbers that divides those numbers evenly without leaving any reminder. Ex: 10 and 15 have 5 as the largest number that divides both of them without leaving a reminder. 10/5 = 2 and 15/5 = 3.
+* GCD (Greatest common divisor) or HCF (Highest common factor): Largest common factor btw 2 or more numbers that divides those numbers evenly without leaving any reminder. Ex: 10 and 15 have 5 as the largest number that divides both of them without leaving a reminder. 10/5 = 2 and 15/5 = 3. So the primary purpose of GCD is to find out how many large parts a quantity can be divided equally.
 * LCM - Least common multiple
 * Find the factors of a number say 35? A.k.a find numbers that divide 35 without leaving a reminder.
 
+
+------------------------------------------------------------------------------------------------------------------------
+
+# Telusu
+* Linear Search
+* Array Rotation
+* Bubble Sort
+* Matrix Addition, Subtraction, Multiplication, Division
 
 ------------------------------------------------------------------------------------------------------------------------
 
